@@ -61,7 +61,7 @@
   font-weight: bold;
   color: antiquewhite;
 }
-.city{
+.cityName{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,14 +74,21 @@
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  gap: 20px;
+  gap: 10px;
 }
 
 .data{
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: auto;
-  gap: 10px;
-  font-size: 50px;
+  gap: 30px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.detail{
+  font-size: clamp(30px, 2vw, 100px);
   color: white;
 }
